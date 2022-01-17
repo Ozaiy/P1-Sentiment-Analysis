@@ -5,7 +5,7 @@ from sqlalchemy import create_engine
 import pymysql
 from matplotlib import pyplot as plt
 
-engine = create_engine('mysql+pymysql://root:root@127.0.0.1:3306/bruh')
+engine = create_engine('')
 
 hotelsReviewUrls = []
 with open('urlsTripVisor.txt') as webSet:

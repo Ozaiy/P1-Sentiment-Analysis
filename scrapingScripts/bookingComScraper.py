@@ -10,7 +10,7 @@ from selenium.common.exceptions import NoSuchElementException
 
 DRIVER_PATH = 'Desktop\chromedriver.exe'
 driver = webdriver.Chrome(executable_path=DRIVER_PATH)
-engine = create_engine('mysql+pymysql://root:root@127.0.0.1:3306/bruh')
+engine = create_engine('')
 
 scrapedReviws = []
 
